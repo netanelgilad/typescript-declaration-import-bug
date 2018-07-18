@@ -1,0 +1,1 @@
+# typescript-declaration-import-bug

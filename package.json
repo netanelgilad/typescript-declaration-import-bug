@@ -1,0 +1,12 @@
+{
+  "name": "typescript-check-missing-import",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./lib && tsc --declaration --outDir lib --baseUrl . ./src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "2.9.2"
+  }
+}
